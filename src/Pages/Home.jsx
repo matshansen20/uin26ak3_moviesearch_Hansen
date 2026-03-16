@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
-import SearchBar from "./components/SearchBar"
-import MovieList from "./components/MovieList"
+import SearchBar from "../components/SearchBar"
+import MovieList from "../components/MovieList"
 import { searchMovies } from "../api/omdb"
 
 export default function Home() {
